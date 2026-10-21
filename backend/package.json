@@ -1,0 +1,13 @@
+{
+  "name": "crig-elibrary-ai-news",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend service for permitted Graphic Online RSS headlines and AI summaries",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "check": "node --check server.js" },
+  "engines": { "node": ">=18.17.0" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "rss-parser": "^3.13.0"
+  }
+}
